@@ -6,6 +6,15 @@ Release x.x.x xxx xxxxxxxxxxxx xx xxxx
         Other changes:
             #648  Address compiler warnings
 
+        Bug fixes:
+  #616 #649 #650  Fix overeager destruction of a shared DTD in function
+                    XML_ExternalEntityParserCreate in out-of-memory situations
+
+        Special thanks to:
+            Mark Brand
+                 and
+            Google Project Zero
+
 Release 2.4.9 Tue September 20 2022
         Security fixes:
        #629 #640  CVE-2022-40674 -- Heap use-after-free vulnerability in
